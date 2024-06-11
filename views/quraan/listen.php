@@ -14,7 +14,7 @@ require_once('../../includes/nav.php');
 
 <div class="container">
     <h3 class="text-success text-center my-5">استمع الى القرآن الكريم</h3>
-    <table class="table" dir='rtl'>
+    <table class="table overflow-auto" dir='rtl'>
         <thead>
             <tr>
             <th scope="col">رقم السورة</th>
