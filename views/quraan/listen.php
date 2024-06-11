@@ -12,9 +12,10 @@ require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
 ?>
 
-<div class="container">
-    <h3 class="text-success text-center my-5">استمع الى القرآن الكريم</h3>
-    <table class="table overflow-auto" dir='rtl'>
+<div class="container overflow-hidden">
+  <h3 class="text-success text-center my-5">استمع الى القرآن الكريم</h3>
+  <div class="w-100 overflow-auto">
+    <table class="table" dir='rtl'>
         <thead>
             <tr>
             <th scope="col">رقم السورة</th>
@@ -28,8 +29,9 @@ require_once('../../includes/nav.php');
         </thead>
         <tbody id='surah_table'></tbody>
     </table>
-</div>
 
+  </div>
+</div>
 
 <?php require_once('../../includes/footer.php'); ?>
 
