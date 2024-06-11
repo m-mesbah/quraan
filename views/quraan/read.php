@@ -11,42 +11,7 @@ require_once("../../includes/fun.php");
 require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
 ?>
-    <style>
-      .ayah {
-        padding: 0 .5em;
-        display: inline-block;
-        position: relative;
-      }
 
-      .ayah::after {
-        content: "\06DD";
-        display: block;
-        position: absolute;
-        font-size: 1.9em;
-        top: 50%;
-        left: 50%;
-        transform: translate( -50%, -50%);
-        
-      }
-      .container{
-        text-align: center;
-      }
-      h1{
-          color: green;
-      }
-      .custom-alert {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        border: 1px solid #ccc;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        z-index: 99999999999;
-      }
-    </style>
 <div class="container">
     <h3 class="text-success text-center my-5">قرآءة القرآن الكريم</h3>
     <table class="table" dir='rtl'>
