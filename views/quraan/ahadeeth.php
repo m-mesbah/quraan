@@ -12,20 +12,7 @@ require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
 ?>
 <style>
-    .custom-alert {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        border: 1px solid #ccc;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        z-index: 99999999999;
-        max-height: 100vh;
-        overflow: auto;
-      }
+
 </style>
 <div class="container " >
     <h3 class="text-success text-center my-5">احاديث نبوية شريفة</h3>
