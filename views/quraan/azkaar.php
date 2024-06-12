@@ -15,7 +15,7 @@ require_once('../../includes/nav.php');
     <h3 class="text-success text-center my-5">اذكار المسلم</h3>
     <div class="row justify-content-center" id='cats_azkar'></div>
     <h3 class="text-success text-center my-5" id="azkar_title">اذكار الصباح</h3>
-    <div class="row" id="azkar">
+    <div class="row mx-2" id="azkar">
        
     </div>
     
@@ -51,7 +51,7 @@ require_once('../../includes/nav.php');
             }
             $('#azkar').append(
                 `
-                <div class="card text-white bg-danger mb-3 col-12 my-2"   >
+                <div class="card text-white bg-danger mb-3 col-12 my-2 bg-cush"   >
             <div class="card-header text-center">${zekr.category}</div>
             <div class="card-body">
                 <h5 class="card-title">التكرار: ${zekr.count}</h5>
@@ -91,14 +91,14 @@ require_once('../../includes/nav.php');
             }
             $('#azkar').append(
                 `
-                <div class="card text-white bg-danger mb-3 col-12 my-2"   >
-            <div class="card-header text-center">${zekr.category}</div>
-            <div class="card-body">
-                <h5 class="card-title">التكرار: ${zekr.count}</h5>
-                <p class="card-text">${zekr.content}</p><hr>
-                <p class="card-text  text-dark">${zekr.description}</p>
-            </div>
-        </div>
+                <div class="card text-white bg-danger mb-3 col-12 my-2 bg-cush"   >
+                    <div class="card-header text-center">${zekr.category}</div>
+                    <div class="card-body">
+                        <h5 class="card-title">التكرار: ${zekr.count}</h5>
+                        <p class="card-text">${zekr.content}</p><hr>
+                        <p class="card-text  text-dark">${zekr.description}</p>
+                    </div>
+                </div>
                 `
             );
 

@@ -1,5 +1,5 @@
 <?php 
-if($_SERVER['SERVER_NAME']=='localhost')$_SESSION['domain'] = " http://".$_SERVER['SERVER_NAME'].'/hr/github/quraan';
+if($_SERVER['SERVER_NAME']=='localhost')$_SESSION['domain'] = " http://".$_SERVER['SERVER_NAME'].'/hr/github/QR/quraan';
 if($_SERVER['SERVER_NAME']!='localhost')$_SESSION['domain'] = " http://".$_SERVER['SERVER_NAME'];
 // Start with PHPMailer class 
 use PHPMailer\PHPMailer\PHPMailer;

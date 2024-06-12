@@ -34,3 +34,9 @@
     max-height: 100vh;
     overflow: auto;
   }
+  .bg-cush{
+    background-color: #DC6645 !important;
+  }
+  .shadow{
+    box-shadow: 2px 2px 5px 5px rgb(160, 158, 158) !important;
+  }
