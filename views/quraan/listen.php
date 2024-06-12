@@ -23,6 +23,7 @@ require_once('../../includes/nav.php');
             <th scope="col">عبد الباسط-تجويد</th>
             <th scope="col">عبد الباسط-ترتيل</th>
             <th scope="col"> السديس</th>
+            <th scope="col"> مشاري العفاسي</th>
             <th scope="col"> هاني الرفاعي</th>
             <th scope="col"> استمع الى قارئ عشوائيا</th>
             </tr>
@@ -61,6 +62,9 @@ require_once('../../includes/nav.php');
                     class="btn btn-success" onclick="showTafseer(this.value, this.name)">استمع</button></td>
                     
                     <td><button value='https://api.quran.com/api/v4/chapter_recitations/3' name="${index}" 
+                    class="btn btn-success" onclick="showTafseer(this.value, this.name)">استمع</button></td>
+                    
+                    <td><button value='https://api.quran.com/api/v4/chapter_recitations/7' name="${index}" 
                     class="btn btn-success" onclick="showTafseer(this.value, this.name)">استمع</button></td>
                     
                     <td><button value='https://api.quran.com/api/v4/chapter_recitations/5' name="${index}" 

@@ -12,8 +12,9 @@ require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
 ?>
 
-<div class="container">
-    <h3 class="text-success text-center my-5">قرآءة القرآن الكريم</h3>
+<div class="container overflow-hidden">
+  <h3 class="text-success text-center my-5">قرآءة القرآن الكريم</h3>
+  <div class="w-100 overflow-auto">
     <table class="table" dir='rtl'>
         <thead>
             <tr>
@@ -26,6 +27,7 @@ require_once('../../includes/nav.php');
         </thead>
         <tbody id='surah_table'></tbody>
     </table>
+  </div>
 </div>
 <div class="modal  bg-dark " id="request_table" tabindex="-1" aria-labelledby="showLoginFormLabel" aria-hidden="true" style='display: none;'>
     <div class="modal-dialog" style='max-width: 900px;'>
