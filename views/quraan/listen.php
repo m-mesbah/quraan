@@ -92,8 +92,8 @@ require_once('../../includes/nav.php');
     data: null,
     dataType: "JSON",
     success: function (data) {
-        console.log(data.audio_files[surah].audio_url)
-      showAlert(data.audio_files[surah].audio_url)
+       if(document.querySelector('.custom-alert')!=null)document.querySelector('.custom-alert').remove()
+    showAlert(data.audio_files[surah].audio_url)
       
     },
   });
